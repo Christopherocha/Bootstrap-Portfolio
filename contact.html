@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Chris Rocha's Portfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body class="site">
+		<header>
+			<!-- <div id="name"><em id="header-name">Chris Rocha</em></div> -->
+			<nav class="navbar navbar-default" id="nav-menu">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<div class="navbar-brand">Chris Rocha</div>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="./index.html" class="nav-links">About</a></li>
+						<li><a href="./portfolio.html" class="nav-links" id="middle-link">Portfolio</a></li>
+						<li><a href="./contact.html" class="nav-links">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<section class="content col-sm-6 col-sm-offset-1" id="contact">
+						<form>
+							<h1 class="page-header">Contact</h1>
+							<div class="form-group">
+								<label class="field" for="InputName">Name:</label>
+								<input type="text" id="InputName" name="name" class="input form-control" required="required" value="" size="50" placeholder="John Smith">
+							</div>
+							<div class="form-group">
+								<label class="field" for="InputEmail">Email:</label>
+								<input type="text" id="InputEmail" name="email" class="input form-control" required="required" value="" size="50" placeholder="example@gmail.com">
+							</div>
+							<div class="form-group">
+								<label class="field" for="InputMessage">Message:</label>
+								<textarea name="message" id="InputMessage" class="input form-control" required="required" rows="7" cols="50"></textarea>
+							</div>
+							<button type="Submit" class="btn btn-default" name="Submit" value="Submit" id="button">Submit</button>
+							<!-- <input type="reset" name="reset" value="reset"> -->
+						</form>			
+					</section>
+					<aside class="content col-sm-4 col-sm-offset-1" id="connect">
+						<h2 class="page-header">Connect with Me</h2>
+						
+						<a href="https://github.com/christopherocha"><img class="connectImages" id="github" src="./assets/images/github.png" alt="github icon"></a>
+						<a href="https://www.linkedin.com/in/chris-rocha-ba2b0997/"><img class="connectImages" id="linkedIn" src="./assets/images/linkedIn.png" alt="linkedIn icon"></a>
+						<a href="http://stackoverflow.com/users/7787467/christopherocha"><img class="connectImages" id="stackOverflow" src="./assets/images/stackOverflow.png" alt="stack overflow icon"></a>
+					</aside>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer container row">
+				<div class="col-sm-12">
+					<p>&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Chris Rocha</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
